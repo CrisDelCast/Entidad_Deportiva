@@ -225,7 +225,7 @@ public class Menu {
     public void addLineUp(){
         System.out.println("digita para la alineacion: ");
         System.out.println("Equipo: ");
-        System.out.println("1.inferiorA\n2. R.Madrid");
+        System.out.println("1. R.Madrid A\n2. R.Madrid B");
         int team = in.nextInt() - 1;
         System.out.print("Fecha de creacion: ");
         String date = sc.nextLine();
