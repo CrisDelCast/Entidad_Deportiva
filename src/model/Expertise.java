@@ -2,6 +2,6 @@ package model;
 
 public enum Expertise {
     
-    Ofensivo, Defendia, Posesion, JugadasDeLaboratorio
+    Ofensivo, Defensivo, Posesion, JugadasDeLaboratorio
     
 }

@@ -38,7 +38,7 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    public boolean isStatus() {
+    public boolean getStatus() {
         return status;
     }
 
@@ -46,12 +46,10 @@ public abstract class Employee {
         this.status = status;
     }
 	
-	public String showInfo();
+    public abstract String showInfo();
 	
 	
 }
-
-
 
 
 
